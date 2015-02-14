@@ -1,17 +1,29 @@
 <%-- 
-    Document   : index
-    Created on : 7/02/2015, 01:38:13 AM
-    Author     : Lore
+    Document   : sapoindex
+    Created on : Feb 6, 2015, 1:40:36 AM
+    Author     : giovanni
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+         <%@include file="Librerias/headgeneral.jsp"%><!-- ESTO MANDA A TRAER Las cabeceras-->
+
+        <title>SAPITO ITT</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <%@include file="Menus/MenuContabilidad.jsp"%><!-- ESTO MANDA A TRAER EL MENU-->
+        <div id="page-wrapper">
+            <!--  ################################################-->
+            
+            
+            hola aqui es una prueba de RH
+            
+            <!--  ################################################-->
+
+            
+        </div>
+        <%@include file="Librerias/piegeneral.jsp"%><!-- ESTO MANDA A TRAER EL MENU-->
     </body>
 </html>

@@ -18,6 +18,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class controller_contabilidad {
     @RequestMapping(value="contabilidad", method=RequestMethod.GET)
     public String index(Model model){
-    return "Contabilidad/indexcontabilidad";
+    return "Contabilidad/index";
     }
 }
