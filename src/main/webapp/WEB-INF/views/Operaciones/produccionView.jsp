@@ -74,13 +74,13 @@
                                                 <option>Admin2</option>
                                                 <option>Admin3</option>
                                             </select>
-<!--                                            <div class="form-group input-group">                                                
-                                                    <input type="text" class="form-control" placeholder="Busca Empleado" disabled="">
-                                                    <span class="input-group-btn">
-                                                        <button class="btn btn-default" type="button" data-target="#catalogoEmpleado"><i class="fa fa-search"></i>
-                                                        </button>
-                                                    </span>
-                                                </div>  -->
+                                            <!--                                            <div class="form-group input-group">                                                
+                                                                                                <input type="text" class="form-control" placeholder="Busca Empleado" disabled="">
+                                                                                                <span class="input-group-btn">
+                                                                                                    <button class="btn btn-default" type="button" data-target="#catalogoEmpleado"><i class="fa fa-search"></i>
+                                                                                                    </button>
+                                                                                                </span>
+                                                                                            </div>  -->
                                             <label>Fecha</label>
                                             <input type="date"class="form-control"/>                                                                                   
                                         </div>
