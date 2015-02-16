@@ -48,6 +48,7 @@
                             </h1>                        
                         </div>
                     </div>
+<<<<<<< HEAD
                     <div class="panel panel-primary">
                         <div class="panel-heading">
                             <h3 class="panel-title">Ventas</h3>
@@ -79,6 +80,8 @@
                         <button type="button" class="btn btn-primary col-md-offset-11">Guardar</button>                                                                                                    
                     </div>     
                 </div>
+=======
+>>>>>>> origin/master
                     <!-- /#page-wrapper -->
                 </div>
                 <!-- /#wrapper -->
