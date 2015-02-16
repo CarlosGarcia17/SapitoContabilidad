@@ -68,7 +68,6 @@
         <div class="sidebar-nav navbar-collapse">
             <ul class="nav" id="side-menu">   
                 <%
-<<<<<<< HEAD
                     if (request.getAttribute("javax.servlet.forward.request_uri").equals("/SapitoContabilidad/contabilidad")) {
                 %>
 
@@ -153,87 +152,6 @@
                 </li>
                 <%
                     }
-=======
-                    if(request.getAttribute("javax.servlet.forward.request_uri").equals("/SapitoContabilidad/contabilidad")){
-                %>
-
-                <li>
-                    <a href="contabilidad"><i class="fa fa-dashboard fa-fw"></i> Contabilidad y Finanzas</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Contabilidad<span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li>
-                            <a href="contabilidad/contaVentas">Ventas</a>
-                        </li>
-                        <li>
-                            <a href="contabilidad/contaCompras">Compras</a>
-                        </li>
-                        <li>
-                            <a href="contabilidad/contaRH">Recursos Humanos</a>
-                        </li>
-                        <li>
-                            <a href="contabilidad/contaActivoFijo">Activos Fijos</a>
-                        </li>
-                        <li>
-                            <a href="contabilidad/contaDireccion">Direccion</a>
-                        </li>
-                    </ul>
-                    <!-- /.nav-second-level -->
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-wrench fa-fw"></i>Finanzas<span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li>
-                            <a href="../contabilidad/contaPresupuesto">Presupuestos</a>
-                        </li>
-                        <li>
-                            <%=request.getAttribute("javax.servlet.forward.request_uri")%>
-                        </li>
-                    </ul>
-                </li>
-                <% 
-                    }
-                else{
-                %>
-                <li>
-                    <a href="../contabilidad"><i class="fa fa-dashboard fa-fw"></i> Contabilidad y Finanzas</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Contabilidad<span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li>
-                            <a href="../contabilidad/contaVentas">Ventas</a>
-                        </li>
-                        <li>
-                            <a href="../contabilidad/contaCompras">Compras</a>
-                        </li>
-                        <li>
-                            <a href="../contabilidad/contaRH">Recursos Humanos</a>
-                        </li>
-                        <li>
-                            <a href="../contabilidad/contaActivoFijo">Activos Fijos</a>
-                        </li>
-                        <li>
-                            <a href="../contabilidad/contaDireccion">Direccion</a>
-                        </li>
-                    </ul>
-                    <!-- /.nav-second-level -->
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-wrench fa-fw"></i>Finanzas<span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li>
-                            <a href="../contabilidad/contaPresupuesto">Presupuestos</a>
-                        </li>
-                        <li>
-                            <%=request.getAttribute("javax.servlet.forward.request_uri")%>
-                        </li>
-                    </ul>
-                </li>
-                <% 
-                        }
->>>>>>> origin/master
                 %>
             </ul>
         </div>
