@@ -131,7 +131,7 @@
                             <a href="../contabilidad/contaActivoFijo">Activos Fijos</a>
                         </li>
                         <li>
-                            <a href="../contabilidad/contaAlmacen">Almacen</a>
+                            <a href="../contabilidad/contaAlmacen">Almacenes</a>
                         </li>
                         <li>
                             <a href="../contabilidad/contaDireccion">Direccion</a>

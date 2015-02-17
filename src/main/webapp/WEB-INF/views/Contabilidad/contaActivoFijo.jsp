@@ -58,9 +58,9 @@
                             <div class="form-group">
                                 <label>Inicio del Ejercicio</label>
                                 <div class="form-group input-group">                                                
-                                    <input type="date" class="form-control" placeholder="Fecha Inicial"/>
+                                    <input type="date" class="form-control"/>
                                     <label>Fin del Ejercicio</label>
-                                    <input type="date" class="form-control" placeholder="Fecha Final"/>
+                                    <input type="date" class="form-control"/>
                                     <span class="input-group-btn">
                                         <button class="btn btn-default" data-toggle="modal" data-target="#catalogoProducto"><i class="fa fa-search"></i>
                                         </button>
