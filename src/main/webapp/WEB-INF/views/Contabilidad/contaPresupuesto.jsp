@@ -44,11 +44,21 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <h1 class="page-header">
-                                Contabilidad Y Finanzas
+                               Presupuestos
                             </h1>                        
                         </div>
                     </div>
                     <!-- /#page-wrapper -->
+                    <div class="col-lg-12">
+                        <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Estado de Resultados</h3>
+                                </div>
+
+                                <div class="panel-body" >
+                                </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

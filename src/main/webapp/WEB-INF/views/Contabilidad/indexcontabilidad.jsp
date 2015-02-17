@@ -44,12 +44,15 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <h1 class="page-header">
-                                Contabilidad Y Finanzas
+                                Módulo Contabilidad y Finanzas
                             </h1>                        
                         </div>
                     </div>
                     <!-- /#page-wrapper -->
                 </div>
+                
+                <center> <img  class="img-responsive" src="../SAPITO/resources/img/conta.jpg"/></center>
+                
             </div>
         </div>
                 <!-- /#wrapper -->

@@ -44,7 +44,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <h1 class="page-header">
-                                Contabilidad Y Finanzas
+                                Reporte Recursos Humanos
                             </h1>                        
                         </div>
                     </div>
@@ -58,14 +58,15 @@
                                 <label>Inicio del Ejercicio</label>
                                 <div class="form-group input-group">                                                
                                     <input type="date" class="form-control"/>
-                                    <label>Fin del Ejercicio</label>
-                                    <input type="date" class="form-control"/>
+                                    
                                     <span class="input-group-btn">
-                                        <button class="btn btn-default" data-toggle="modal" data-target="#catalogoProducto"><i class="fa fa-search"></i>
+                                        <button class="btn btn-default" style="" data-toggle="modal" data-target="#catalogoProducto"><i class="fa fa-search"></i>
                                         </button>
                                     </span>
                                 </div>  
                             </div>
+                            <label>Fin del Ejercicio</label>
+                                    <input type="date" class="form-control"/>
                             <!-------------------------->
                             <label class="control-label" >Departamento</label>
                             <select class="form-control">

@@ -34,9 +34,10 @@
     </head>
 
     <body>
-
+        <%@include file="../Default/Modal/proximamente.jsp"%>
         <div id="wrapper">           
             <%@include file="Menu/menuContabilidad.jsp"%>
+            
             <!-- Page Content -->
             <div id="page-wrapper">
                 <div class="container-fluid">
@@ -44,11 +45,101 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <h1 class="page-header">
-                                Contabilidad Y Finanzas
+                                Informes
                             </h1>                        
                         </div>
                     </div>
                     <!-- /#page-wrapper -->
+                    <div class="col-lg-12">
+                        <div class="col-md-3">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Estado de Resultados</h3>
+                                </div>
+
+                                <div class="panel-body" >
+                                    
+                                    <div class="col-md-12">
+                                        <label class="control-label" style="font-size: 230px;" ><i class="fa fa-bar-chart"></i></label>
+                                    </div>
+                                    <div class="col-md-10"> <button data-toggle="modal" data-target="#proximamente" type="button" class="btn btn-primary col-md-offset-11">Consultar</button> </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        <div class="col-md-3">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Variaciones de Capital</h3>
+                                </div>
+
+                                <div class="panel-body" >
+                                    
+                                    <div class="col-md-12">
+                                        <label class="control-label" style="font-size: 230px;" ><i class="fa fa-pie-chart"></i></label>
+                                    </div>
+                                    <div class="col-md-10">
+                                        
+                                        
+                                        <button data-toggle="modal" data-target="#proximamente"type="button" class="btn btn-primary col-md-offset-11">Consultar</button> </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        <div class="col-md-3">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                      <h3 class="panel-title">Balance General</h3>
+                                </div>
+
+                                <div class="panel-body" >
+                                    
+                                    <div class="col-md-12">
+                                        <label class="control-label" style="font-size: 230px;" ><i class="fa fa-line-chart"></i></label>
+                                    </div>
+                                    <div class="col-md-10"> <button data-toggle="modal" data-target="#proximamente"type="button" class="btn btn-primary col-md-offset-11">Consultar</button> </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-md-3">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Flujo de Efectivo</h3>
+                                </div>
+
+                                <div class="panel-body" >
+                                    
+                                    <div class="col-md-12">
+                                        <label class="control-label" style="font-size: 230px;" ><i class="fa fa-money"></i></label>
+                                    </div>
+                                    <div class="col-md-10"> <button data-toggle="modal" data-target="#proximamente"type="button" class="btn btn-primary col-md-offset-11">Consultar</button></div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                                                                       
+                        
+                         
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">                                                                                  	
+                        </div>
+
+                                                                                                                           
+                    </div>
+                    
+                    
+                    
+                    
                 </div>
             </div>
         </div>
