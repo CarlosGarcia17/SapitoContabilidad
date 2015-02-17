@@ -49,14 +49,77 @@
                         </div>
                     </div>
                     <!-- /#page-wrapper -->
-                    <div class="col-lg-12">
-                        <div class="panel panel-primary">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Estado de Resultados</h3>
+                    		<div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Presupuestos</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-hover table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Fecha</th>
+                                                    <th>Departamento</th>
+                                                    <th>Responsable</th>
+                                                    <th>Presupuesto Solicitado</th>
+                                                    <th>Presupuesto Maximo</th>
+                                                    <th>Estado</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>3326</td>
+                                                    <td>14/2/2015</td>
+                                                    <td>Ventas</td>
+                                                    <td>Luz</td>
+                                                    <td>$100,000</td>
+                                                    <td>$120,000</td>
+                                                    <td><select class="form-control">
+                                                            <option>Pendiente</option>
+                                                            <option>Aceptado</option>
+                                                            <option>Rechazado</option>
+                                                            <option>A Direccion</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3327</td>
+                                                    <td>15/2/2015</td>
+                                                    <td>Compras</td>
+                                                    <td>Cheft</td>
+                                                    <td>$200,000</td>
+                                                    <td>$100,000</td>
+                                                    <td><select class="form-control">
+                                                            <option>Pendiente</option>
+                                                            <option>Aceptado</option>
+                                                            <option>Rechazado</option>
+                                                            <option>A Direccion</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3328</td>
+                                                    <td>16/2/2015</td>
+                                                    <td>Activo Fijo</td>
+                                                    <td>Beto</td>
+                                                    <td>$100,000</td>
+                                                    <td>$150,000</td>
+                                                    <td><select class="form-control">
+                                                            <option>Pendiente</option>
+                                                            <option>Aceptado</option>
+                                                            <option>Rechazado</option>
+                                                            <option>A Direccion</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
-
-                                <div class="panel-body" >
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

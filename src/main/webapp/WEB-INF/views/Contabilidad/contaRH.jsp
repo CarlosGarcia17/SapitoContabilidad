@@ -66,7 +66,7 @@
                                 </div>  
                             </div>
                             <label>Fin del Ejercicio</label>
-                                    <input type="date" class="form-control"/>
+                               <input type="date" class="form-control"/>
                             <!-------------------------->
                             <label class="control-label" >Departamento</label>
                             <select class="form-control">

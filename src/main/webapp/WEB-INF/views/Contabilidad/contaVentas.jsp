@@ -56,21 +56,24 @@
                         <div class="panel-body">
                             <!-------------------------->                                            
                             <div class="form-group">
-                                <label>Inicio del Ejercicio</label>
+                               <label>Inicio del Ejercicio</label>
                                 <div class="form-group input-group">                                                
                                     <input type="date" class="form-control"/>
-                                    <label>Fin del Ejercicio</label>
-                                    <input type="date" class="form-control"/>
+                                    
                                     <span class="input-group-btn">
-                                        <button class="btn btn-default" data-toggle="modal" data-target="#catalogoProducto"><i class="fa fa-search"></i>
+                                        <button class="btn btn-default" style="" data-toggle="modal" data-target="#catalogoProducto"><i class="fa fa-search"></i>
                                         </button>
                                     </span>
                                 </div>  
                             </div>
+                            <label>Fin del Ejercicio</label>
+                               <input type="date" class="form-control"/> 
+                            
                             <!-------------------------->
                             <label class="control-label">Total de Ventas</label>
                             <input type="text" class="form-control" placeholder="" required/>
                         </div>
+                    </div>
                     </div>
                     <div class="row">
                         <div class="col-md-2">                                                                                  	
