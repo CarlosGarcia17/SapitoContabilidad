@@ -68,7 +68,7 @@
         <div class="sidebar-nav navbar-collapse">
             <ul class="nav" id="side-menu">   
                 <%
-                    if (request.getAttribute("javax.servlet.forward.request_uri").equals("/SapitoContabilidad/contabilidad")) {
+                    if (request.getAttribute("javax.servlet.forward.request_uri").equals("/SAPITO/contabilidad")) {
                 %>
 
                 <li>
